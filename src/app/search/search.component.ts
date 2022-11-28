@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class SearchComponent {
 
+
+  name=""
+
+  search=()=>
+  {
+    let data:any=
+    {
+      "name":this.name
+    }
+    console.log(data)
+  }
+
 }
