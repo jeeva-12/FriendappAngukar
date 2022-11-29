@@ -8,11 +8,11 @@
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                    <label for="" class="form-label">Name</label>
-                    <input type="text" class="form-control">
+                    <input name="name" [(ngModel)]="name" type="text" class="form-control">
 
                 </div>
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
-                    <button class="btn btn-info">Search</button>
+                    <button (click)="search()" class="btn btn-info">Search</button>
                 </div>
             </div>
         </div>
